@@ -11,6 +11,12 @@ namespace EazFixer
     {
         private static int Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Source By HoLLy");
+            Console.WriteLine("Modded By CodeVirtualZ");
+            Console.WriteLine("[+]Fixed - Resource Decryptor (Eazfuscator v2023.3)");
+            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Gray;
             try
             {
                 Parser.Default.ParseArguments<Options>(args)
